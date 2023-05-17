@@ -11,3 +11,6 @@ def rondomFunction(num_list, char_list):
         print(num) #O(n)
 
 print(rondomFunction(num_list, char_list)) #O(n + n) => O(2n) => O(n)
+
+
+#Notes

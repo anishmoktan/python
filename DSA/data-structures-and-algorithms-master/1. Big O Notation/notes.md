@@ -1,3 +1,5 @@
+#Big O Notation
+
 Complexity Analysis
 One problem can have multiple solutions but they all may not be equal in terms of time and memory usage.
 
@@ -27,7 +29,7 @@ To measure the efficiency of an algorithm, we nee dto consider two things:
 Time Complexity: How much time does it take to run completely?
 Space Complexity: How much extra space does it require in the process?
 
-7. Why we need Big O Notation?
+### 7. Why we need Big O Notation?
 Speed of program running is different in separate devices and hardware
 We cannot rate the code on the time it takes to run
 
@@ -38,9 +40,23 @@ We cannot depend on our system clock time as well as hardware for each program
 It doesn't depend on time, as it depends on how many steps we are performing
 The main focus is to calculate the amount of work we do or the number of comparisons we perform
 
-8. Big O(n) Complexity
+### 8. Big O(n) Complexity
+
+An algorithm with a Big O(n) time complexity is said to be **linear**. This means that the running time of the algorithm is directly proportional to the size of the input. For example, if an algorithm takes 1 second to sort a list of 10 items, it will take 2 seconds to sort a list of 20 items, and so on.
+
 
 E.x. 
+
+```
+def print_numbers(n):
+    for i in range(n):
+        print(i)
+```
+
+As n increases, the output of number increases linearly:
+n=5 will output 5 outputs
+n=6 will output 6 outputs
+
 Solution A = 10 Operations
 Solution B = 5 Operations ---> Better code as it has less operations
 
@@ -48,6 +64,7 @@ https://www.bigocheatsheet.com/
 
 Liner Big(n) Example:
 
+```
 student_list1 = ['tim', 'drake', 'ashish', 'shubham']
 
 student_list2 = ['andrew', 'harshit', 'lary', 'shubham', 'chris']
@@ -58,9 +75,13 @@ def checkStudent(student_list2):
             print('Available')
 
 checkStudent(student_list2) 
+```
 
-8. Big O(1) Complexity
+#### Big O(1) Complexity
+An algorithm with a Big O(1) time complexity is said to be **constant**. This means that the running time of the algorithm is independent of the size of the input. For example, if an algorithm takes 1 millisecond to sort a list of 10 items, it will also take 1 millisecond to sort a list of 100 items, and so on.
 
+
+```
 student_list = ['andrew', 'akshat', 'chris', 'harshit', 'lary', 'shubham', 'tim', 'drake', 'ashish']
 
 def displayStudent(student_list):
@@ -68,12 +89,14 @@ def displayStudent(student_list):
     print(student_list[1]) #O(1)
 
 displayStudent(student_list) #O(2)
+```
 
 We don't use big O(2), we say big O(1) which signals constant
 
-9. Counting Operations
-
-students = ['andrew', 'akshat', 'chris', 'harshit', 'lary', 'tim', 'drake', 'ashish', 'shubham']
+### 9. Counting Operations
+ 
+```
+students = ['andrew', 'akshat', 'chris', 'harshit', 'lary', 'tim', 'drake', 'ashish', 'shubham'] #O(1)
 
 def rondomFunction(students):
     first = students[0] #O(1)
@@ -87,5 +110,13 @@ def rondomFunction(students):
     print(new_list) #O(1)   
     return total #O(1)
 
-print(rondomFunction(students)) # O(n) => O(n)
+print(rondomFunction(students)) # O(6 +2n) => O(n)
+```
 
+### 11. Simplifying Big O - Part 1
+
+**Rule 1** - Focus on Scalability 
+**Rule 2** - Considering Worst Case Scenario
+**Rule 3** - Remove all possible constants
+**Rule 4** - Consider different variable for different inputs
+**Rule 5** - Remove all non-dominants
