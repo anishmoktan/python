@@ -48,6 +48,7 @@ https://www.bigocheatsheet.com/
 
 Liner Big(n) Example:
 
+```
 student_list1 = ['tim', 'drake', 'ashish', 'shubham']
 
 student_list2 = ['andrew', 'harshit', 'lary', 'shubham', 'chris']
@@ -58,9 +59,10 @@ def checkStudent(student_list2):
             print('Available')
 
 checkStudent(student_list2) 
+```
 
 8. Big O(1) Complexity
-
+```
 student_list = ['andrew', 'akshat', 'chris', 'harshit', 'lary', 'shubham', 'tim', 'drake', 'ashish']
 
 def displayStudent(student_list):
@@ -68,11 +70,13 @@ def displayStudent(student_list):
     print(student_list[1]) #O(1)
 
 displayStudent(student_list) #O(2)
+```
 
 We don't use big O(2), we say big O(1) which signals constant
 
 9. Counting Operations
 
+```
 students = ['andrew', 'akshat', 'chris', 'harshit', 'lary', 'tim', 'drake', 'ashish', 'shubham']
 
 def rondomFunction(students):
@@ -88,4 +92,4 @@ def rondomFunction(students):
     return total #O(1)
 
 print(rondomFunction(students)) # O(n) => O(n)
-
+```
