@@ -4,7 +4,7 @@ num_list2 = [5, 6, 7, 8, 9]
 def rondomFunction(num_list):
     total = 0
 
-    for num1 in num_list2:
+    for num1 in num_list:
         for num2 in num_list:
             print(num1, num2)
             total += 1

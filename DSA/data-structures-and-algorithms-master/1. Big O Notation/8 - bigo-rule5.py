@@ -17,4 +17,4 @@ def rondomFunction(num_list):
     msg = "Rule 5 - Remove all non-dominants" #O(1)
     return total #O(1)
 
-print(rondomFunction(num_list)) #O(n^2)
+print(rondomFunction(num_list)) #O(4 + n + 2n^2) ----> O(n^2)
