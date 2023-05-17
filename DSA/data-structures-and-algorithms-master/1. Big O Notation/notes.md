@@ -59,3 +59,33 @@ def checkStudent(student_list2):
 
 checkStudent(student_list2) 
 
+8. Big O(1) Complexity
+
+student_list = ['andrew', 'akshat', 'chris', 'harshit', 'lary', 'shubham', 'tim', 'drake', 'ashish']
+
+def displayStudent(student_list):
+    print(student_list[0]) #O(1)
+    print(student_list[1]) #O(1)
+
+displayStudent(student_list) #O(2)
+
+We don't use big O(2), we say big O(1) which signals constant
+
+9. Counting Operations
+
+students = ['andrew', 'akshat', 'chris', 'harshit', 'lary', 'tim', 'drake', 'ashish', 'shubham']
+
+def rondomFunction(students):
+    first = students[0] #O(1)
+    total = 0 #O(1) 
+    new_list = [] #O(1)
+
+    for student in students:
+        total += 1 #O(n)
+        new_list.append(student) #O(n)
+    
+    print(new_list) #O(1)   
+    return total #O(1)
+
+print(rondomFunction(students)) # O(n) => O(n)
+
