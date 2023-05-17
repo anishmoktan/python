@@ -13,3 +13,5 @@ def rondomFunction(students):
     return total #O(1)
 
 print(rondomFunction(students)) # O(n) => O(n)
+
+#Notes
