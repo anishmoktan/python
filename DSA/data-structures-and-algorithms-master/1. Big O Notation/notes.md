@@ -27,3 +27,35 @@ To measure the efficiency of an algorithm, we nee dto consider two things:
 Time Complexity: How much time does it take to run completely?
 Space Complexity: How much extra space does it require in the process?
 
+7. Why we need Big O Notation?
+Speed of program running is different in separate devices and hardware
+We cannot rate the code on the time it takes to run
+
+Why we need Big O?
+We require BIG O to give a performance to our program for time and space
+We cannot depend on our system clock time as well as hardware for each program
+
+It doesn't depend on time, as it depends on how many steps we are performing
+The main focus is to calculate the amount of work we do or the number of comparisons we perform
+
+8. Big O(n) Complexity
+
+E.x. 
+Solution A = 10 Operations
+Solution B = 5 Operations ---> Better code as it has less operations
+
+https://www.bigocheatsheet.com/
+
+Liner Big(n) Example:
+
+student_list1 = ['tim', 'drake', 'ashish', 'shubham']
+
+student_list2 = ['andrew', 'harshit', 'lary', 'shubham', 'chris']
+
+def checkStudent(student_list2):
+    for student in student_list2:
+        if student == 'chris':
+            print('Available')
+
+checkStudent(student_list2) 
+
