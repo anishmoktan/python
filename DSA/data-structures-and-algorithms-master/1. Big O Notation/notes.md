@@ -120,3 +120,61 @@ print(rondomFunction(students)) # O(6 +2n) => O(n)
 **Rule 3** - Remove all possible constants
 **Rule 4** - Consider different variable for different inputs
 **Rule 5** - Remove all non-dominants
+
+### 12. Big O(n^2) Complexity
+
+An algorithm with a Big O(n^2) time complexity is said to be quadratic. This means that the running time of the algorithm is proportional to the square of the size of the input. For example, if an algorithm takes 1 second to sort a list of 10 items, it will take 4 seconds to sort a list of 20 items, and so on.
+
+Some examples of algorithms with different Big O time complexities:
+
+Bubble sort: O(n^2)
+Selection sort: O(n^2)
+Insertion sort: O(n^2)
+Big O time complexity of an algorithm can vary greatly so it is important to choose the most efficient algorithm for a given task, as this can have a significant impact on the performance of a program.
+
+Additional details about Big O(n^2) time complexity:
+
+Algorithms with Big O(n^2) time complexity are often called "quadratic time" algorithms.
+Algorithms with Big O(n^2) time complexity are often less efficient than algorithms with other time complexities.
+Algorithms with Big O(n^2) time complexity should be avoided when possible.
+
+Example
+```
+num_list = [1, 2, 3, 4, 5, 6, 7]
+def rondomFunction(num_list):
+    total = 0
+
+    for num1 in num_list:
+        for num2 in num_list:
+            print(num1, num2)
+            total += 1
+    
+    return total
+
+print(rondomFunction(num_list))
+```
+This will run 49 times (7*7) so it is n^2
+
+### 15. Space Complexity
+
+Space Complexity of an algorithm represents the amount of extra memory space needed by the algorithm in its life cycle
+
+We usually have 2 type of space requirement:
+1. To store our input data
+2. Extra space that we need to execute our program
+
+How much additional memory do we need to allocate in order to run our code?
+
+```
+def all_cubes(items):
+    result = []
+
+    for item in items:
+        result.append(pow(item,3)) #O(n)
+
+    print(result)
+
+items = [2,3,4,5,6,7]
+all_cubes(items)
+```
+This example has space complexity of O(n), as the numbers in items list increase, there will be a linear increase in the result array.
