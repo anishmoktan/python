@@ -13,10 +13,10 @@
 # my_function()
 
 
-def divide(n1, n2): 
-    result = n1 / n2
-    return result
+# def divide(n1, n2): 
+#     result = n1 / n2
+#     return result
 
-print(divide(10,5))
+# print(divide(10,5))
 
-print(divide(n2=1,n1=5))
+# print(divide(n2=1,n1=5))
