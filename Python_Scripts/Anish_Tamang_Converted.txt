@@ -1,0 +1,60 @@
+Anish Tamang
+Queens, New York | (347) 459-2802 | anish.tmngo@gmail.com | github.com/anishmoktan
+TECHNICAL SKILLS
+LANGUAGES
+● Python, Bash, TypeScript, HashiCorp Configuration Language (HCL), Jenkins Pipeline, SQL, HTML, CSS
+LIBRARIES/FRAMEWORKS
+● Serverless Stack (SST), React, Cypress, Node.js, Knex.js, Apache Hive, Apache Hadoop, Superset, Postgres, MySQL, Oracle
+CONTROL/DEPLOYMENT
+● AWS (AppSync, Athena, Aurora, Cloudwatch, Cognito, DynamoDB, EC2, ECS, ECR, Glue, IAM, Lambda, MWAA, RDS, Redshift, Route
+53, S3), Terraform, SaltStack, Apache Airflow, Seed.run (CI/CD), Jenkins, Github, Bitbucket, Datadog, Grafana, Snowflake
+PROJECT MANAGEMENT & DESIGN
+● Jira, Confluence, Photoshop, Illustrator, Figma, Miro, Draw.io, Google Workspace, Microsoft Office
+EXPERIENCE
+Proclivity Systems New York, NY
+DevOps Engineer June 2022 - Present
+● Utilized the Serverless Stack (SST) framework, leveraging AWS CDK and TypeScript.js, to provision a scalable and cost-effective
+serverless architecture on AWS with reduced infrastructure configuration drifts
+● Reduced deployment time by 50% and increased application reliability by 30% by developing and implementing a continuous integration
+and delivery (CI/CD) pipeline utilizing Bitbucket and seed.run
+● Achieved a 17% reduction in the company's monthly AWS bill by implementing cost-saving strategies, including EC2 instance
+reservation, cold storage of EBS volumes, and establishing proactive cost monitoring through AWS cost alarms
+● Effectively provisioned and deployed Apache Superset's advanced data visualization dashboard, empowering the engineering team with
+enhanced visibility into the platform's Statistical Process Control (SPC) analysis
+● Designed and implemented Datadog dashboards to monitor AWS infrastructure to provide real-time visibility into system health and
+performance, resulting in a 5% reduction in downtime and a 10% improvement in our serverless application performances
+● Automated seed.run pipeline leveraging AWS Lambda and Fargate to orchestrate and execute knex.js database migrations for Serverless
+Aurora PostgreSQL V2 database, ensuring seamless and consistent database migrations across all environments
+Junior DevOps & DataOps Engineer April 2021 - May 2022
+● Collaborated with the Senior DevOps engineer to design and establish a robust infrastructure using infrastructure as code methodologies
+(Terraform, Jenkins Pipelines), ensuring a consistent and predictable infrastructure state, resulting in enhanced stability, reduced
+configuration drifts, and smoother deployment processes
+● Migrated legacy ETL pipelines to AWS Apache Airflow and scripted Python DAGs with automated QA checks of clients’ daily campaign
+data files, reducing the pipeline runtime by 3 hours
+● Developed a comprehensive dashboard on Grafana Cloud to visualize and analyze key advertisement campaign metrics, such as clicks,
+impressions, and costs, while implementing automated email alerts to promptly notify stakeholders of any data discrepancies within the
+AWS Redshift Database
+● Achieved 99.9% uptime for production environment by configuring AWS Cloudwatch alarms, automating software maintenance,
+quarterly version patches, deployments, and infrastructure management
+● Streamlined engineers’ system and AWS IAM access by developing time-saving bash scripts to efficiently group individuals with
+appropriate system access privileges, resulting in a 30% reduction in administrative efforts
+Kura Labs New York, NY
+DevOps Engineer Trainee June 2020 - April 2021
+● 9-month DevOps academy, focused on training in AWS, Linux, Python, CICD Pipelines, and various DevOps practices and tools
+● Designed and developed Eventbrite’s clone website using AWS microservice architecture with automated Jenkins pipelines
+● Migrated monolith application from EC2 servers to a containerized environment, improving scalability, reliability, and security
+Société Générale Corporate & Investment Banking New York, NY
+Financial Planning and Analysis Summer Analyst June 2018 - August 2018
+● Developed and presented interactive data visualizations to identify and track profit and loss drivers and trends for the bank’s multiple
+business lines
+● Maintained data integrity of weekly financial results by identifying and resolving inconsistencies in Finance division’s database
+● Created and distributed Excel budget templates and instructions to senior management across all business support functions
+EDUCATION/CERTIFICATIONS & PROJECTS
+Baruch College, City University of New York New York, NY
+Bachelor of Science in Mathematics, GPA 3.7 May 2020
+Amazon Web Services: AWS Certified Developer – Associate
+LinkedIn Learning: DevOps Foundation, Ansible, Docker, Jenkins
+Udemy: Linux Mastery: Master the Linux Command Line in 11.5 Hours
+● www.tindog.net - Replication of Tinder dating app’s landing page for dogs to find their next doggie dates
+● www.baskit.com - Website from Kura Labs final project to practice frontend, backend, and infrastructure deployments
+● Himalayan Cloud - Instagram page dedicated to share insights on DevOps careers to students from the Himalayan community
